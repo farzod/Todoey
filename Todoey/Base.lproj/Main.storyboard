@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="S67-na-KUG" id="nlG-xG-vPU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="bZw-a3-8dj"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="bZw-a3-8dj">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aT7-vu-hVc">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="AddNewButtonPressed:" destination="S67-na-KUG" id="F0P-EF-Ej2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="796" y="133.5832083958021"/>
